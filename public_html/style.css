@@ -1,0 +1,29 @@
+#l1{
+    color:red;
+}
+#l2{
+    color:darkorange;
+}
+#l3{
+    color:gold;
+}
+#l4{
+    color:lime;
+}
+#l5{
+    color:cyan;
+}
+#l6{
+    color:lightskyblue;
+}
+#l7{
+    color:orchid;
+}
+#l8{
+    color:sienna;
+    font-size:20pt;
+    font-weight: bold;
+}
+#l1, #l2, #l3, #l4, #l5, #l6, #l7{
+    font-size: 25pt
+}

@@ -1,0 +1,16 @@
+1- Quand on quitte puis relance tout fonctionne correctement.
+2- Avec le délai, le client se connecte et se déconnecte après 1 seconde.
+3- La connection est refusée.
+4- Tant que le premier client n'est pas déconnecté le second est en attente.
+
+PREMIER SERVEUR WEB
+
+3-GET / HTTP/1.1
+Host: localhost:8080
+User-Agent: curl/7.45.0
+Accept: */*
+
+4- Nom des 3 constituants de la première ligne de la requête envoyée par le client :
+- Commande : spécifie le type de requête
+- Host : site concerné par la requête
+- User-Agent : logiciel utilisé pour se connecter
